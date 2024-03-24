@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Aplicación Bienestar y Salud (EcoVital)" company="" webLink="http://" view-date="2024-05-25" view-index="0" gantt-divider-location="542" resource-divider-location="428" version="3.3.3305" locale="es_ES">
+    <description/>
+    <view zooming-state="default:0" id="gantt-chart">
+        <field id="tpd6" name="Duración" width="68" order="0"/>
+        <field id="tpd3" name="Nombre" width="245" order="1"/>
+        <field id="tpd4" name="Fecha de inicio" width="71" order="2"/>
+        <field id="tpd15" name="Notas" width="20" order="3"/>
+        <field id="tpd5" name="Fecha de fin" width="157" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#000000 #ff0066 #ff0033]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="274" order="0"/>
+        <field id="1" name="Función" width="150" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="2024" month="3" date="28" type="HOLIDAY" color="#ff0066"><![CDATA[Semana Santa]]></date>
+        <date year="2024" month="3" date="29" type="HOLIDAY" color="#ff0066"><![CDATA[Semana Santa]]></date>
+        <date year="2024" month="3" date="30" type="HOLIDAY" color="#ff0066"><![CDATA[Semana Santa]]></date>
+        <date year="2024" month="3" date="31" type="HOLIDAY" color="#ff0066"><![CDATA[Semana Santa]]></date>
+        <date year="2024" month="4" date="1" type="HOLIDAY" color="#ff0066"><![CDATA[Semana Santa]]></date>
+        <date year="2024" month="4" date="2" type="HOLIDAY" color="#ff0066"><![CDATA[Semana Santa]]></date>
+        <date year="2024" month="4" date="3" type="HOLIDAY" color="#ff0066"><![CDATA[Semana Santa]]></date>
+        <date year="2024" month="4" date="4" type="HOLIDAY" color="#ff0066"><![CDATA[Semana Santa]]></date>
+        <date year="2024" month="4" date="5" type="HOLIDAY" color="#ff0066"><![CDATA[Semana Santa]]></date>
+        <date year="2024" month="5" date="1" type="HOLIDAY" color="#000000"><![CDATA[Dia Trabajador]]></date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="1" uid="f3035e409e6f4b22a1f1b67d5675f9d7" name="Proyecto Aplicación Bienestar y Salud" color="#000000" meeting="false" start="2024-03-14" duration="81" complete="0" thirdDate="2024-03-14" thirdDate-constraint="1" expand="true">
+            <task id="7" uid="1a88703fe3064da49c16c742a9a56959" name="Estudio de viabilidad" meeting="false" start="2024-03-14" duration="5" complete="0" expand="true">
+                <depend id="11" type="2" difference="0" hardness="Strong"/>
+                <task id="8" uid="1c39ad3d38454a82a4c07da684d615a3" name="Evaluar la factibilidad técnica y de mercado." meeting="false" start="2024-03-14" duration="1" complete="0" expand="true"/>
+                <task id="9" uid="4b68276d9d644dcc92611972a0fc988d" name="Investigar sobre la API de OpenAI y capacidades de .NET MAUI" meeting="false" start="2024-03-15" duration="3" complete="0" expand="true"/>
+                <task id="10" uid="104bdf25e74b428b986142f6d48f9791" name="Análisis de la competencia y demanda del mercado" meeting="false" start="2024-03-18" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="11" uid="de3796fb3ec94c23a59346a59c03bc93" name="Fase 1 Análisis" meeting="false" start="2024-03-19" duration="10" complete="0" expand="true">
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+                <task id="14" uid="eeaeec1e878647929194a40838dd7ec3" name="Diagrama de casos de uso" meeting="false" start="2024-03-19" duration="3" complete="0" expand="true"/>
+                <task id="15" uid="2bfbfa7d86144bc88f780a5121a18aae" name="Diagrama de clases" meeting="false" start="2024-03-22" duration="3" complete="0" expand="true"/>
+                <task id="16" uid="bfd231067cf1420b86bf5896a058fb1d" name="Diagrama MER" meeting="false" start="2024-03-25" duration="3" complete="0" expand="true"/>
+                <task id="17" uid="00d5ac48c2d84f89b88fdd7f172dda80" name="Especificar las características del chatbot y su integración" meeting="false" start="2024-03-27" duration="2" complete="0" expand="true"/>
+            </task>
+            <task id="18" uid="1ab6e37d4a14448d9507d0cf40ef8da0" name="Fase 2 Diseño" meeting="false" start="2024-04-07" duration="10" complete="0" expand="true">
+                <depend id="22" type="2" difference="0" hardness="Strong"/>
+                <task id="19" uid="3c2b3dd09ba14bc9af6d408e2e992341" name="Diseñar la arquitectura de la app y del chatbot" meeting="false" start="2024-04-07" duration="3" complete="0" expand="true"/>
+                <task id="20" uid="43db1042b97f47fca2ddfab03fd00441" name="Elaborar mockups y prototipos de la interfaz de usuario" meeting="false" start="2024-04-10" duration="2" complete="0" expand="true"/>
+                <task id="21" uid="06775d8956ef4319972f90b2192eb384" name="Definir la estrategia de respuesta del chatbot" meeting="false" start="2024-04-12" duration="5" complete="0" expand="true"/>
+            </task>
+            <task id="22" uid="cadca60929a1443ea6a41130f615cd48" name="Fase 3 Implementacion" meeting="false" start="2024-04-17" duration="31" complete="0" expand="true">
+                <depend id="26" type="2" difference="0" hardness="Strong"/>
+                <task id="23" uid="6ed648074a4649ac9849d61934fb3891" name="Codificación de la aplicación y el chatbot" meeting="false" start="2024-04-17" duration="14" complete="0" expand="true"/>
+                <task id="24" uid="b33d3afd04bf4d7aabf943b428f12d10" name="Integrar la API de OpenAI con la aplicación" meeting="false" start="2024-05-02" duration="7" complete="0" expand="true"/>
+                <task id="25" uid="26ccf0541cf5461f916b55e146b12b37" name="Desarrollar funciones de recordatorios y seguimiento de metas" meeting="false" start="2024-05-09" duration="10" complete="0" expand="true"/>
+            </task>
+            <task id="26" uid="4415b68d08634666be1ff52352082bbb" name="Fase 4 Pruebas" meeting="false" start="2024-05-19" duration="12" complete="0" expand="true">
+                <depend id="30" type="2" difference="0" hardness="Strong"/>
+                <task id="27" uid="558fc9b0f4484b37b8fdbfd02cb1816b" name="Realizar pruebas unitarias y de integración" meeting="false" start="2024-05-19" duration="5" complete="0" expand="true"/>
+                <task id="28" uid="4ff4d2abdfcc4d99af970da5586617f5" name="Pruebas de usabilidad y experiencia de usuario" meeting="false" start="2024-05-24" duration="3" complete="0" expand="true"/>
+                <task id="29" uid="08c2ecf9c07445a6a35c6dc7653f8070" name="Refinar funcionalidades con base en el feedback" meeting="false" start="2024-05-27" duration="4" complete="0" expand="true"/>
+            </task>
+            <task id="30" uid="d4f30e52f4c14801bc9f5eba019b181b" name="Fase 5 Despliegue y Demostración" meeting="false" start="2024-05-31" duration="4" complete="0" expand="true">
+                <depend id="34" type="2" difference="0" hardness="Strong"/>
+                <task id="31" uid="a447c1c4dfcb43bcb9f47fcf2cd4cf44" name="Configuración del entorno de demostración" meeting="false" start="2024-05-31" duration="1" complete="0" expand="true"/>
+                <task id="32" uid="605254b20af842fe967cb49793e6e2ca" name="Demostración Interna" meeting="false" start="2024-06-01" duration="2" complete="0" expand="true"/>
+                <task id="33" uid="7f5594c8350649cd81a1227f496bc967" name="Documentación de la Demostración" meeting="false" start="2024-06-03" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="34" uid="54d5d539e69c44b49debae22c8366462" name="Fase 6 Documentación y Conclusión" meeting="false" start="2024-06-04" duration="9" complete="0" expand="true">
+                <task id="35" uid="47d6da022fa5417ca0c7e28e892b5fbd" name="Compilación de la Documentación del Proyecto" meeting="false" start="2024-06-04" duration="1" complete="0" expand="true"/>
+                <task id="36" uid="eb74afc19a2045a9a4c9989f9440209b" name="Reflexión sobre el Proyecto y Lecciones Aprendidas" meeting="false" start="2024-06-05" duration="2" complete="0" expand="true"/>
+                <task id="37" uid="3d2d0085e2964623a752136ff0a08f72" name="Preparación para la Defensa del TFG" meeting="false" start="2024-06-07" duration="6" complete="0" expand="true"/>
+            </task>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="André Augusto Luiz Trolezi" function="Default:1" contacts="andretrolezi14@gmail.com" phone="601462321"/>
+    </resources>
+    <allocations>
+        <allocation task-id="1" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
