@@ -1,0 +1,2 @@
+Bibliografía TFG
+https://learn.microsoft.com/es-es/dotnet/architecture/maui/mvvm
